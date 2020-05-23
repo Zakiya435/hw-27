@@ -70,7 +70,12 @@ function draw()
 
   else if (keyCode === ENTER)
   {
-  bob.position.x = 200;
+       options = {
+        bodyA : bob,
+        bodyB : null,
+        stiffness: 0.04,
+        length : 100
+      }
   }
 
 }
